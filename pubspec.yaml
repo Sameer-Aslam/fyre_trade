@@ -51,6 +51,12 @@ flutter:
     - assets/images/Group.png
     - assets/images/i2.png
     - assets/images/i3.png
+    - assets/images/g.png
+    - assets/images/f.png
+    - assets/images/graph.png
+
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -67,6 +73,11 @@ flutter:
     - family: Gilroy
       fonts:
         - asset: assets/fonts/Gilroy.ttf
+
+  
+    - family: Gilroy-Bold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf        
         
   #   - family: Trajan Pro
   #     fonts:

@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fyre_trade/screens/create_account.dart';
+
+import 'login.dart';
 
 class PreLogin extends StatefulWidget {
   @override
@@ -68,8 +71,8 @@ class _PreLoginState extends State<PreLogin> {
                 ),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => PreLogin()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CreateAccount()));
               },
             ),
             Padding(padding: EdgeInsets.all(10)),
@@ -97,8 +100,8 @@ class _PreLoginState extends State<PreLogin> {
                 ),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => PreLogin()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Login()));
               },
             ),
             Padding(padding: EdgeInsets.only(top: 20)),
